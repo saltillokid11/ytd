@@ -5,6 +5,6 @@
 #### run node src/index.js 
 
 #### command: ytd
-#### -l <url> -n <name.mp3>
+#### -l <youtube_url> -n <name.mp3>
 
 ##### example: node src/index.js ytd -l "https://www.youtube.com/watch?v=UwxatzcYf9Q" -n "mysong.mp3"
