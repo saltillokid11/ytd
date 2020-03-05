@@ -1,0 +1,24 @@
+{
+  "name": "ytd",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/saltillokid11/ytd.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/saltillokid11/ytd/issues"
+  },
+  "homepage": "https://github.com/saltillokid11/ytd#readme",
+  "dependencies": {
+    "commander": "^4.1.1",
+    "ora": "^4.0.3",
+    "youtube-mp3-downloader": "^0.6.5"
+  }
+}
