@@ -16,7 +16,7 @@ spinner.spinner = 'aesthetic';
 var chromeOptions = new chrome.Options();
 chromeOptions.addArguments("start-maximized");
 // chromeOptions.addArguments("load-extension=" + extensionPath);
-// chromeOptions.addArguments("headless");
+chromeOptions.addArguments("headless");
 
 let driver = new webdriver.Builder()
     .forBrowser('chrome')
